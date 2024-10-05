@@ -32,7 +32,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
 
   Future<String> _getAIResponse(String query) async {
     // Replace with your actual API key from OpenAI
-    final apiUrl = 'https://api.openai.com/v1/chat/completions';
+    final apiUrl = '';
     final apiKey = "";
     try {
       final response = await http.post(
