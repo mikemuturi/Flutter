@@ -1,5 +1,6 @@
 name: city_foods
-description: "A new Flutter project."
+description: "City Foods"
+
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -14,13 +15,20 @@ dependencies:
   cupertino_icons: ^1.0.8
   carousel_slider: ^5.0.0
   table_calendar: ^3.1.2
+  fl_chart: ^0.69.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1 # Add this line for the launcher icons
 
 flutter:
   uses-material-design: true
   assets:
     - assets/images/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/foods_logo.png" # Path to your logo
