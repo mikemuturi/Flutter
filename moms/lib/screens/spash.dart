@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Colors.purple,
       body: Center(
         child: Text(
-          'Healthy Moms,\nHealthy Babies',
+          'MomCare Connect',
           style: TextStyle(
             color: Colors.white,
             fontSize: 32,

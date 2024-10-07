@@ -14,7 +14,7 @@
 
 
     <application
-        android:label="Healthy Moms"
+        android:label="MumCare Connect"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
